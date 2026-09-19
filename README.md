@@ -1,2 +1,2 @@
 # rerdoku
-Un jeu de puzzle quotidien basé sur le réseau RER d'Île-de-France. Génération procédurale de grilles uniques (basée sur la date), développé 100% en Vanilla JS, HTML et CSS sans back-end.
+Un jeu de réflexion quotidien sur le réseau RER francilien, inspiré de Métrodoku. Remplissez la grille en trouvant les gares selon des conditions croisées.
