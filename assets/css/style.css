@@ -1,0 +1,376 @@
+/* Réinitialisation de base */
+* {
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    display: flex;
+    justify-content: center; /* Centre le conteneur horizontalement */
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 5vh; /* Un peu d'espace en haut de la page */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #1e293b;
+}
+
+/* Conteneur global (en-tête + grille) pour que tout soit bien aligné */
+.conteneur-jeu {
+    display: flex;
+    flex-direction: column;
+    width: 516px; /* 4 colonnes de 120px + 3 espaces de 10px */
+}
+
+/* --- Style de l'en-tête --- */
+.header-rerdoku {
+    margin-bottom: 20px;
+}
+
+/* --- EN-TÊTE ET NAVIGATION --- */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Menu de navigation */
+.nav-liens {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-liens a {
+    text-decoration: none;
+    color: #475569;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+
+.nav-liens a:hover {
+    color: #0f172a;
+}
+
+.separateur-header {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 25px;
+}
+
+/* Alignement de la date et du score */
+.infos-jour {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+/* Le gros titre façon Métrodoku */
+.logo {
+    font-size: 42px; /* Beaucoup plus grand */
+    font-weight: 900; /* Très gras */
+    letter-spacing: -2px; /* Lettres resserrées */
+    color: #0f172a;
+    margin: 0;
+}
+
+.titre-jour h2 {
+    font-size: 32px; /* Agrandissement de "grille du jour" */
+    margin: 0;
+    line-height: 1.1;
+    color: #1e293b;
+    letter-spacing: -1px;
+}
+
+.titre-jour .date {
+    margin-bottom: 30px;
+}
+
+/* Conteneur du score, aligné à droite juste au-dessus de la grille */
+.score-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.score-texte {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* --- Style de la grille (inchangé) --- */
+.grille-rerdoku {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(4, 120px);
+    gap: 12px;
+}
+
+.cellule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    width: 110px;  /* Augmente la taille (ex: si c'était 90px) */
+    height: 110px; /* Augmente la taille */
+}
+
+.condition {
+    background-color: #e2e8f0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #334155;
+    padding: 8px;
+}
+
+.jeu {
+    background-color: white;
+    border: 2px solid #1e293b;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.jeu:hover {
+    background-color: #f1f5f9;
+}
+
+.vide {
+    background-color: transparent;
+}
+
+/* --- Modale de recherche --- */
+
+/* L'arrière-plan sombre semi-transparent qui prend tout l'écran */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 41, 59, 0.4); /* Assombrit le jeu derrière */
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15vh; /* Positionne la modale vers le haut de l'écran */
+    z-index: 1000; /* S'assure que la modale est au-dessus de tout le reste */
+    
+    /* Pour la cacher plus tard, on utilisera : display: none; */
+}
+
+/* La boîte blanche contenant la recherche */
+.modal-contenu {
+    background-color: white;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Empêche les éléments enfants de dépasser des bords arrondis */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Le champ de texte */
+#input-gare {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #e2e8f0;
+    outline: none;
+    color: #1e293b;
+}
+
+/* Le texte temporaire du champ (Placeholder) */
+#input-gare::placeholder {
+    color: #94a3b8;
+}
+
+/* La zone de la liste des résultats */
+.resultats-liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 280px; /* Limite la hauteur */
+    overflow-y: auto; /* Active le défilement vertical si la liste est trop longue */
+}
+
+/* Les éléments individuels de la liste */
+.resultat-item {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f172a;
+    border-bottom: 1px solid #f1f5f9;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Retirer la bordure du dernier élément de la liste */
+.resultat-item:last-child {
+    border-bottom: none;
+}
+
+/* Effet au survol de la souris sur un résultat */
+.resultat-item:hover {
+    background-color: #f8fafc;
+}
+
+/* --- Personnalisation de la barre de défilement (Scrollbar) --- */
+.resultats-liste::-webkit-scrollbar {
+    width: 8px;
+}
+.resultats-liste::-webkit-scrollbar-track {
+    background: transparent;
+}
+.resultats-liste::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* --- Affichage d'une gare trouvée --- */
+.gare-trouvee {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.nom-gare {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 2px solid #1e293b; /* La ligne de séparation */
+    padding-bottom: 4px;
+    margin-bottom: auto; /* Pousse les pastilles vers le bas de la case */
+}
+
+.lignes-gare {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+/* Style des pastilles RER */
+.pastille {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px; /* <-- C'est cette ligne qu'il faut changer (avant : 50%) */
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Couleurs officielles des lignes de RER */
+.rer-a { background-color: #E3292E; }
+.rer-b { background-color: #438ECA; }
+.rer-c { background-color: #F3A413; }
+.rer-d { background-color: #007D4C; }
+.rer-e { background-color: #D52997; }
+
+/* --- Barre inférieure (Footer) --- */
+.footer-jeu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bouton-abandon {
+    background-color: white;
+    border: 2px solid #1e293b;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.bouton-abandon:hover {
+    background-color: #f1f5f9;
+}
+
+.erreurs-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Cercles vides par défaut */
+.cercle-erreur {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #1e293b;
+    background-color: transparent;
+}
+
+/* Classe ajoutée en JS quand le joueur fait une erreur */
+.cercle-erreur.plein {
+    background-color: #e53e3e; /* Rouge */
+    border-color: #e53e3e;
+}
+
+/* --- Fenêtre de fin de partie --- */
+.encart-fin {
+    border: 2px solid #1e293b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px; /* Coins très légèrement arrondis */
+}
+
+.encart-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.encart-valeur {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.encart-sous-texte {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 5px;
+}
+
+.btn-action-fin {
+    flex: 1; /* Les boutons prennent la même largeur */
+    background-color: white;
+    border: 2px solid #1e293b;
+    color: #1e293b;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    text-align: center;
+}
+
+.btn-action-fin:hover {
+    background-color: #1e293b;
+    color: white;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RERdoku</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Conteneur qui englobe tout le jeu -->
+    <div class="conteneur-jeu">
+        
+        <!-- En-tête du jeu -->
+        <header class="header-rerdoku">
+            <!-- Nouvelle barre supérieure -->
+            <div class="top-bar">
+                <h1 class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">rerdoku</a></h1>
+                <nav class="nav-liens">
+                    <a href="faq.html">FAQ</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="archives.html">ARCHIVES</a>
+                </nav>
+            </div>
+            
+            <!-- Séparateur visuel -->
+            <hr class="separateur-header">
+
+            <!-- Titre du jour et Score -->
+            <div class="infos-jour">
+                <div class="titre-jour">
+                    <h2>grille du jour</h2>
+                    <h2 class="date" id="date-jour"></h2>
+                </div>
+                <div class="score-container">
+                    <span class="score-texte" id="affichage-score">Score : 0/900</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- La grille (Vide, car générée par le JavaScript) -->
+        <div class="grille-rerdoku" id="grille-jeu">
+        </div>
+
+        <!-- NOUVEAU : Barre inférieure -->
+        <div class="footer-jeu">
+            <button class="bouton-abandon" id="btn-abandon">Abandonner et voir les solutions</button>
+            <div class="erreurs-container">
+                <span class="erreurs-texte">Erreurs</span>
+                <span class="cercle-erreur" id="err-1"></span>
+                <span class="cercle-erreur" id="err-2"></span>
+                <span class="cercle-erreur" id="err-3"></span>
+            </div>
+        </div>
+
+    </div>
+    <!-- Fenêtre de recherche (Modale) -->
+    <div id="modal-recherche" class="modal-overlay">
+        <div class="modal-contenu">
+            <!-- Champ de saisie -->
+            <input type="text" id="input-gare" placeholder="9 réponses possibles" autocomplete="off">
+            
+            <!-- Liste des résultats (Scrollable) -->
+            <ul id="liste-resultats" class="resultats-liste">
+                <!-- Les <li> ont été effacés, c'est le JavaScript qui va les créer -->
+            </ul>
+        </div>
+    </div>
+    <!-- NOUVELLE FENÊTRE : Liste des solutions après abandon -->
+    <div id="modal-solutions" class="modal-overlay">
+        <div class="modal-contenu" style="max-height: 80vh;"> <!-- Un peu plus haute -->
+            <!-- Bouton pour fermer -->
+            <div style="text-align: right; padding: 10px;">
+                <button id="btn-fermer-solutions" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #64748b;">&times;</button>
+            </div>
+            
+            <!-- Titre dynamique (ex: Ligne A / Commence par C) -->
+            <h3 id="titre-solutions" style="text-align: center; margin: 0 20px 10px; color: #0f172a;"></h3>
+            
+            <!-- Le nombre de réponses possibles -->
+            <p id="compteur-solutions" style="text-align: center; color: #94a3b8; font-size: 14px; margin-bottom: 15px;"></p>
+            
+            <!-- La liste des gares -->
+            <ul id="liste-gabarit-solutions" class="resultats-liste">
+                <!-- Rempli par le JavaScript -->
+            </ul>
+        </div>
+    </div>
+    <!-- NOUVELLE FENÊTRE : Fin de partie (Game Over / Victoire) -->
+    <div id="modal-fin-partie" class="modal-overlay">
+        <div class="modal-contenu" style="padding: 30px; text-align: left;">
+            <!-- NOUVEAU : Bouton pour fermer -->
+            <div style="text-align: right; margin-top: -15px; margin-right: -15px;">
+                <button id="btn-fermer-fin" style="background: none; border: none; font-size: 24px; cursor: pointer; color: #64748b;">&times;</button>
+            </div>
+            <h1 id="titre-fin" style="margin-top: 0; font-size: 28px; color: #0f172a;">Bien essayé</h1>
+            
+            <!-- Encart Score -->
+            <div class="encart-fin">
+                <div class="encart-label">SCORE FINAL</div>
+                <div class="encart-valeur" id="score-fin">0/900</div>
+            </div>
+
+            <!-- Encart Gares trouvées -->
+            <div class="encart-fin">
+                <div class="encart-label">GARES TROUVÉES</div>
+                <div class="encart-valeur" id="gares-trouvees-fin">0/9</div>
+                <div class="encart-sous-texte">Plus vous en trouvez, plus vous devenez incollable sur le RER !</div>
+            </div>
+
+            <p style="color: #475569; font-size: 15px; margin: 20px 0;">
+                Merci d'avoir joué à RERdoku. Entraînez-vous pour faire un sans-faute !
+            </p>
+
+            <!-- Boutons d'action -->
+            <div style="display: flex; gap: 10px; justify-content: space-between; margin-top: 20px;">
+                <button id="btn-recommencer" class="btn-action-fin">Recommencer</button>
+                <button id="btn-voir-solutions-fin" class="btn-action-fin">Voir les solutions</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

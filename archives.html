@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Archives - RERdoku</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .page-texte { max-width: 600px; margin: 0 auto; text-align: center; padding-top: 40px; }
+        .selecteur-date { padding: 10px; font-size: 16px; border: 2px solid #1e293b; border-radius: 4px; margin-right: 10px; font-family: inherit;}
+        .btn-jouer { background-color: #1e293b; color: white; border: none; padding: 12px 20px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; }
+        .btn-jouer:hover { background-color: #334155; }
+    </style>
+</head>
+<body>
+    <div class="conteneur-jeu">
+        <header class="header-rerdoku">
+            <div class="top-bar">
+                <h1 class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">rerdoku</a></h1>
+                <nav class="nav-liens">
+                    <a href="faq.html">FAQ</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="archives.html">ARCHIVES</a>
+                </nav>
+            </div>
+            <hr class="separateur-header">
+        </header>
+
+        <main class="page-texte">
+            <h2 style="margin-bottom: 10px;">Jouer à une ancienne grille</h2>
+            <p style="color: #475569; margin-bottom: 30px;">Sélectionnez une date passée pour rejouer les défis précédents.</p>
+            
+            <form id="form-archive">
+                <!-- La date max sera définie en JS pour empêcher de voir le futur -->
+                <input type="date" id="choix-date" class="selecteur-date" required>
+                <button type="submit" class="btn-jouer">Jouer</button>
+            </form>
+        </main>
+    </div>
+
+    <script>
+        // Empêcher de sélectionner une date dans le futur
+        const inputDate = document.getElementById('choix-date');
+        inputDate.max = new Date().toISOString().split("T")[0];
+
+        // Rediriger vers le jeu avec la date en paramètre
+        document.getElementById('form-archive').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const dateChoisie = inputDate.value;
+            window.location.href = `index.html?date=${dateChoisie}`;
+        });
+    </script>
+</body>
+</html>

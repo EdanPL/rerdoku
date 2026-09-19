@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ - RERdoku</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Styles spécifiques au texte des pages annexes */
+        .page-texte { max-width: 600px; margin: 0 auto; line-height: 1.6; }
+        .question { font-weight: bold; font-size: 18px; margin-top: 30px; color: #0f172a; }
+        .reponse { color: #475569; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="conteneur-jeu">
+        <header class="header-rerdoku">
+            <div class="top-bar">
+                <h1 class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">rerdoku</a></h1>
+                <nav class="nav-liens">
+                    <a href="faq.html">FAQ</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="archives.html">ARCHIVES</a>
+                </nav>
+            </div>
+            <hr class="separateur-header">
+        </header>
+
+        <main class="page-texte">
+            <h2>Foire Aux Questions</h2>
+            
+            <div class="question">Comment jouer à RERdoku ?</div>
+            <div class="reponse">Le but est de remplir la grille de 9 cases avec des gares du réseau RER d'Île-de-France. Chaque gare doit correspondre simultanément à la condition de sa ligne et de sa colonne. Vous avez droit à 3 erreurs maximum.</div>
+            
+            <div class="question">À quelle heure sort la nouvelle grille ?</div>
+            <div class="reponse">Une nouvelle grille unique est générée automatiquement chaque jour à minuit (heure de Paris).</div>
+            
+            <div class="question">Qu'est-ce que la condition "Dans Paris intra-muros" ?</div>
+            <div class="reponse">Il s'agit des gares situées géographiquement à l'intérieur de Paris (Zone 1). L'algorithme se base sur les coordonnées GPS officielles pour valider cette condition.</div>
+
+            <div class="question">Une gare peut-elle être utilisée plusieurs fois ?</div>
+            <div class="reponse">Non, chaque gare ne peut être placée qu'une seule fois par grille, même si elle valide plusieurs intersections différentes.</div>
+        </main>
+    </div>
+</body>
+</html>
