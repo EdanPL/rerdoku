@@ -1,0 +1,2423 @@
+[
+  {
+    "nom": "Combs-la-Ville - Quincy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5475480458143664,
+      "lat": 48.667901961049886
+    }
+  },
+  {
+    "nom": "Corbeil-Essonnes",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4729336504587436,
+      "lat": 48.613427913594734
+    }
+  },
+  {
+    "nom": "Gare de Lyon",
+    "lignes": [
+      "RER D",
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.3739164698064985,
+      "lat": 48.843772576851464
+    }
+  },
+  {
+    "nom": "Les Noues",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.478033365115082,
+      "lat": 49.03318276903128
+    }
+  },
+  {
+    "nom": "Orry-la-Ville - Coye",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4901789854211955,
+      "lat": 49.13828637527201
+    }
+  },
+  {
+    "nom": "Survilliers - Fosses",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.525531713992054,
+      "lat": 49.099586939193706
+    }
+  },
+  {
+    "nom": "Villiers-le-Bel - Gonesse - Arnouville",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4161874889269837,
+      "lat": 48.99377714689272
+    }
+  },
+  {
+    "nom": "Ballancourt",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3705184977367075,
+      "lat": 48.531501986486845
+    }
+  },
+  {
+    "nom": "Avenue du Président Kennedy Maison de Radio France",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2794870649625665,
+      "lat": 48.85364805716894
+    }
+  },
+  {
+    "nom": "Dourdan la Forêt",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 1.995901990362833,
+      "lat": 48.53562062258458
+    }
+  },
+  {
+    "nom": "Chaville - Vélizy",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.183684109854236,
+      "lat": 48.79972882534397
+    }
+  },
+  {
+    "nom": "Chemin d'Antony",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3127110135157984,
+      "lat": 48.74794190188695
+    }
+  },
+  {
+    "nom": "Ivry-sur-Seine",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3916869716625384,
+      "lat": 48.81398905200947
+    }
+  },
+  {
+    "nom": "Meudon Val Fleury",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2408830693356476,
+      "lat": 48.80749262578013
+    }
+  },
+  {
+    "nom": "Lardy",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.254739702427517,
+      "lat": 48.52040359106998
+    }
+  },
+  {
+    "nom": "Pierrelaye",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1546634856409232,
+      "lat": 49.01913673984224
+    }
+  },
+  {
+    "nom": "Porchefontaine",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.152378660253372,
+      "lat": 48.79652818117568
+    }
+  },
+  {
+    "nom": "Saint-Michel-sur-Orge",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3068331640148254,
+      "lat": 48.63587586133944
+    }
+  },
+  {
+    "nom": "Saint-Quentin en Yvelines - Montigny-le-Bretonneux",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.044621988534177,
+      "lat": 48.787390238291614
+    }
+  },
+  {
+    "nom": "Viroflay Rive Gauche",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1713898127563787,
+      "lat": 48.800718463863554
+    }
+  },
+  {
+    "nom": "Cernay",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2574741572503108,
+      "lat": 48.98500470125916
+    }
+  },
+  {
+    "nom": "Invalides",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.31251355492596,
+      "lat": 48.862884804554966
+    }
+  },
+  {
+    "nom": "Porte Maillot",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.284431219916768,
+      "lat": 48.87790843816008
+    }
+  },
+  {
+    "nom": "Saint-Chéron",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.124937383537765,
+      "lat": 48.550926680302844
+    }
+  },
+  {
+    "nom": "Saint-Michel Notre-Dame",
+    "lignes": [
+      "RER C",
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3452883321974305,
+      "lat": 48.85353290071982
+    }
+  },
+  {
+    "nom": "Arcueil - Cachan",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.328136923064751,
+      "lat": 48.798892500080676
+    }
+  },
+  {
+    "nom": "Aulnay-sous-Bois",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.495513142584314,
+      "lat": 48.93219600596196
+    }
+  },
+  {
+    "nom": "La Croix de Berny",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3042273475518598,
+      "lat": 48.76169369040741
+    }
+  },
+  {
+    "nom": "Mitry - Claye",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.6424063023101896,
+      "lat": 48.97585875402046
+    }
+  },
+  {
+    "nom": "Luxembourg",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.339762849560476,
+      "lat": 48.84543415048044
+    }
+  },
+  {
+    "nom": "Palaiseau - Villebon",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.237314364639455,
+      "lat": 48.70814058364534
+    }
+  },
+  {
+    "nom": "Vert Galant",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.5664480169630006,
+      "lat": 48.944181065974725
+    }
+  },
+  {
+    "nom": "Villepinte",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.512644627819613,
+      "lat": 48.962709513300425
+    }
+  },
+  {
+    "nom": "Denfert Rochereau",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.333203670349575,
+      "lat": 48.83307317062929
+    }
+  },
+  {
+    "nom": "Parc de Sceaux",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.309905064564246,
+      "lat": 48.76956333368779
+    }
+  },
+  {
+    "nom": "Aéroport CDG - Terminal 2 (TGV)",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.57058948552452,
+      "lat": 49.00468746180567
+    }
+  },
+  {
+    "nom": "Massy - Verrières",
+    "lignes": [
+      "RER B",
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2740024044842477,
+      "lat": 48.73488814734515
+    }
+  },
+  {
+    "nom": "Boissy-Saint-Léger",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.504559838342837,
+      "lat": 48.75218572078873
+    }
+  },
+  {
+    "nom": "Achères Ville",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.0777317645655984,
+      "lat": 48.97066504832262
+    }
+  },
+  {
+    "nom": "Auber",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.3299271706082756,
+      "lat": 48.87215749487708
+    }
+  },
+  {
+    "nom": "Fontenay-sous-Bois",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.4635014194875513,
+      "lat": 48.843794351932786
+    }
+  },
+  {
+    "nom": "Houilles - Carrières-sur-Seine",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.1853533763028636,
+      "lat": 48.92037937392436
+    }
+  },
+  {
+    "nom": "Joinville-le-Pont",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.4638567953623163,
+      "lat": 48.82103881506317
+    }
+  },
+  {
+    "nom": "La Varenne - Chennevières",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.513423298184714,
+      "lat": 48.795383835614835
+    }
+  },
+  {
+    "nom": "Le Vésinet - Le Pecq",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.122117447472966,
+      "lat": 48.89797344633644
+    }
+  },
+  {
+    "nom": "Nation",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.395823588826126,
+      "lat": 48.84823711041019
+    }
+  },
+  {
+    "nom": "Nanterre Préfecture / Esplanade Charles De Gaulle",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.2232129684066617,
+      "lat": 48.89574531120744
+    }
+  },
+  {
+    "nom": "Sartrouville",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.1570864964698178,
+      "lat": 48.93773606341459
+    }
+  },
+  {
+    "nom": "Rueil-Malmaison",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.172579447718415,
+      "lat": 48.88757361863876
+    }
+  },
+  {
+    "nom": "Saint-Maur-des-Fossés - Créteil",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.4727204038021715,
+      "lat": 48.80620002476372
+    }
+  },
+  {
+    "nom": "Torcy",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.655130086641314,
+      "lat": 48.83964551726303
+    }
+  },
+  {
+    "nom": "Noisiel",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.616678624694602,
+      "lat": 48.84350923944823
+    }
+  },
+  {
+    "nom": "Charles-de-Gaulle Étoile",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.2947732143825275,
+      "lat": 48.874204186324654
+    }
+  },
+  {
+    "nom": "Saint-Germain-en-Laye",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.0948366282977533,
+      "lat": 48.89807641113002
+    }
+  },
+  {
+    "nom": "Gare du Nord",
+    "lignes": [
+      "RER E",
+      "RER D",
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3587329590878596,
+      "lat": 48.88077520479297
+    }
+  },
+  {
+    "nom": "Roissy-en-Brie",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.6503876684411503,
+      "lat": 48.79565482141207
+    }
+  },
+  {
+    "nom": "Rosa Parks",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.373819005403212,
+      "lat": 48.89658112861537
+    }
+  },
+  {
+    "nom": "Nanterre Université",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.2135566086399585,
+      "lat": 48.90101049575467
+    }
+  },
+  {
+    "nom": "Bondy",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.4802059152605986,
+      "lat": 48.89395181173609
+    }
+  },
+  {
+    "nom": "La Ferté-Alais",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.352193814586844,
+      "lat": 48.485514299822704
+    }
+  },
+  {
+    "nom": "Le Coudray-Montceaux",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.492713002881577,
+      "lat": 48.56611782073621
+    }
+  },
+  {
+    "nom": "Évry",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4525733922724497,
+      "lat": 48.63426831236897
+    }
+  },
+  {
+    "nom": "Malesherbes",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.401133894429584,
+      "lat": 48.29359176873126
+    }
+  },
+  {
+    "nom": "Melun",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.6549902821418874,
+      "lat": 48.527243321460155
+    }
+  },
+  {
+    "nom": "Le Plessis Chenet",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.479469169601778,
+      "lat": 48.573807793559
+    }
+  },
+  {
+    "nom": "Le Vert de Maisons",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.432243533360699,
+      "lat": 48.78846667355173
+    }
+  },
+  {
+    "nom": "Moulin Galant",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4734903663442247,
+      "lat": 48.58715390715937
+    }
+  },
+  {
+    "nom": "Orangis Bois de l'Épine",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4077962861739057,
+      "lat": 48.63635136710196
+    }
+  },
+  {
+    "nom": "Viry-Châtillon",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.386783798391593,
+      "lat": 48.6760924339657
+    }
+  },
+  {
+    "nom": "Saint-Fargeau",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5426094498060046,
+      "lat": 48.56507294103619
+    }
+  },
+  {
+    "nom": "Villeneuve Triage",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.438668340778227,
+      "lat": 48.744500702150724
+    }
+  },
+  {
+    "nom": "Juvisy",
+    "lignes": [
+      "RER D",
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.383833358799739,
+      "lat": 48.6895672569645
+    }
+  },
+  {
+    "nom": "Ablon",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.4195650243879334,
+      "lat": 48.7255353048612
+    }
+  },
+  {
+    "nom": "Athis-Mons",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.4036331049084922,
+      "lat": 48.71262898747626
+    }
+  },
+  {
+    "nom": "Épinay-sur-Orge",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3326229292104723,
+      "lat": 48.66948372520816
+    }
+  },
+  {
+    "nom": "Gennevilliers",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.307943234074898,
+      "lat": 48.932896166448664
+    }
+  },
+  {
+    "nom": "Étampe",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1595305875651545,
+      "lat": 48.4369239376403
+    }
+  },
+  {
+    "nom": "Marolles-en-Hurepoix",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2909244684897176,
+      "lat": 48.56559386282182
+    }
+  },
+  {
+    "nom": "Les Grésillons",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.313835382457718,
+      "lat": 48.92087280435658
+    }
+  },
+  {
+    "nom": "Orly Ville",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.40290860736794,
+      "lat": 48.741878705678886
+    }
+  },
+  {
+    "nom": "Pont de l'Alma",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.300989969386769,
+      "lat": 48.86266245169435
+    }
+  },
+  {
+    "nom": "Savigny-sur-Orge",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3524814010489976,
+      "lat": 48.676446656997726
+    }
+  },
+  {
+    "nom": "Sermaise",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.0693815248874716,
+      "lat": 48.5358065092437
+    }
+  },
+  {
+    "nom": "Villeneuve-le-Roi",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.4263998204748227,
+      "lat": 48.73983069943655
+    }
+  },
+  {
+    "nom": "Bibliothèque François Mitterrand Emile Durkheim",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.37769700026936,
+      "lat": 48.82888070077747
+    }
+  },
+  {
+    "nom": "Versailles Château Rive Gauche",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1290438673702554,
+      "lat": 48.80021557813598
+    }
+  },
+  {
+    "nom": "Chamarande",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.21551781194949,
+      "lat": 48.514245875300325
+    }
+  },
+  {
+    "nom": "Issy",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.257893897515079,
+      "lat": 48.819343962606595
+    }
+  },
+  {
+    "nom": "Issy Val de Seine",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2640696502505677,
+      "lat": 48.83059547623919
+    }
+  },
+  {
+    "nom": "Le Blanc-Mesnil",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.475674370833512,
+      "lat": 48.93230541606913
+    }
+  },
+  {
+    "nom": "Lozère",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.212262378017493,
+      "lat": 48.70596898482229
+    }
+  },
+  {
+    "nom": "Palaiseau",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.245672514581906,
+      "lat": 48.71694628758515
+    }
+  },
+  {
+    "nom": "Villeparisis - Mitry-le-Neuf",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.6031353051184487,
+      "lat": 48.95314838758261
+    }
+  },
+  {
+    "nom": "Sevran Beaudottes",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.524779047056861,
+      "lat": 48.9468939111449
+    }
+  },
+  {
+    "nom": "Les Baconnets",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.287667495463073,
+      "lat": 48.73968104253053
+    }
+  },
+  {
+    "nom": "Cergy Préfecture",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.0795349399973735,
+      "lat": 49.036463980725365
+    }
+  },
+  {
+    "nom": "Cergy Saint-Christophe",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.034294461852662,
+      "lat": 49.049647005256354
+    }
+  },
+  {
+    "nom": "Champigny",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.510307237115641,
+      "lat": 48.80698507164625
+    }
+  },
+  {
+    "nom": "Marne-la-Vallée Chessy",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.7822267234490368,
+      "lat": 48.86995013493981
+    }
+  },
+  {
+    "nom": "Sucy - Bonneuil",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.507482645714313,
+      "lat": 48.771707906964316
+    }
+  },
+  {
+    "nom": "Neuilly-Plaisance",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.5143124384334405,
+      "lat": 48.85290746280475
+    }
+  },
+  {
+    "nom": "Le Chénay Gagny",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.5528816497808324,
+      "lat": 48.87715783970278
+    }
+  },
+  {
+    "nom": "Ozoir-la-Ferrière",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.6902527821957585,
+      "lat": 48.7707789170597
+    }
+  },
+  {
+    "nom": "Tournan",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.758824548674894,
+      "lat": 48.7394872073018
+    }
+  },
+  {
+    "nom": "Gare Saint-Lazare",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.3267224755800515,
+      "lat": 48.8750292564036
+    }
+  },
+  {
+    "nom": "Noisy-le-Grand - Mont d'Est",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.549900487641346,
+      "lat": 48.840844372159204
+    }
+  },
+  {
+    "nom": "Nanterre-La-Folie",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.223738843023636,
+      "lat": 48.897586648407284
+    }
+  },
+  {
+    "nom": "Neuilly Porte Maillot",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.282976188020842,
+      "lat": 48.87793268655634
+    }
+  },
+  {
+    "nom": "La Borne Blanche",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.507013841603866,
+      "lat": 49.12620996065864
+    }
+  },
+  {
+    "nom": "Javel",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.278036281995908,
+      "lat": 48.84715690155799
+    }
+  },
+  {
+    "nom": "Buno - Gironville",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.387209797198101,
+      "lat": 48.371383292302916
+    }
+  },
+  {
+    "nom": "Goussainville",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4621689661352346,
+      "lat": 49.02316199903104
+    }
+  },
+  {
+    "nom": "Le Mée",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.6255221550663017,
+      "lat": 48.538775256627815
+    }
+  },
+  {
+    "nom": "Ponthierry - Pringy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.544348950368586,
+      "lat": 48.535139766989644
+    }
+  },
+  {
+    "nom": "Villeneuve-Saint-Georges",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.446226445438707,
+      "lat": 48.73063829288859
+    }
+  },
+  {
+    "nom": "Le Bras de Fer",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4514090955932755,
+      "lat": 48.623332241072234
+    }
+  },
+  {
+    "nom": "Grand Bourg",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.435330530181304,
+      "lat": 48.64848911258699
+    }
+  },
+  {
+    "nom": "Créteil Pompadour",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4353063397063224,
+      "lat": 48.77126603812107
+    }
+  },
+  {
+    "nom": "Pont du Garigliano - Hôpital Européen G. Pompidou",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2704582437872425,
+      "lat": 48.83908975542996
+    }
+  },
+  {
+    "nom": "Bouray",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2900825138403964,
+      "lat": 48.53289010324473
+    }
+  },
+  {
+    "nom": "Brétigny",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.302059691582639,
+      "lat": 48.606744948948126
+    }
+  },
+  {
+    "nom": "Arpajon",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.241070080902974,
+      "lat": 48.58600789080001
+    }
+  },
+  {
+    "nom": "Massy - Palaiseau",
+    "lignes": [
+      "RER C",
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.2583229936112414,
+      "lat": 48.7259970920586
+    }
+  },
+  {
+    "nom": "Saint-Ouen-l'Aumône Liesse",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.128263873923673,
+      "lat": 49.033987636271455
+    }
+  },
+  {
+    "nom": "Sainte-Geneviève-des-Bois",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.312736251060263,
+      "lat": 48.65281140144265
+    }
+  },
+  {
+    "nom": "Porte de Clichy",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.315599220546768,
+      "lat": 48.89416838621195
+    }
+  },
+  {
+    "nom": "Boulainvilliers",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2747933246088805,
+      "lat": 48.85697199584854
+    }
+  },
+  {
+    "nom": "Avenue Foch",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.274808153642234,
+      "lat": 48.869830488996314
+    }
+  },
+  {
+    "nom": "Champ de Mars Tour Eiffel",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2898035182585,
+      "lat": 48.856457211541745
+    }
+  },
+  {
+    "nom": "Châtelet les Halles",
+    "lignes": [
+      "RER B",
+      "RER D",
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.3470126872387564,
+      "lat": 48.86182227279812
+    }
+  },
+  {
+    "nom": "La Hacquinière",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.151642038623571,
+      "lat": 48.695264122108014
+    }
+  },
+  {
+    "nom": "Le Bourget",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.4257914255599538,
+      "lat": 48.93073957031752
+    }
+  },
+  {
+    "nom": "Le Guichet",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.1927348848067565,
+      "lat": 48.70540392478546
+    }
+  },
+  {
+    "nom": "Parc des Expositions",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.514360285533493,
+      "lat": 48.97342490721537
+    }
+  },
+  {
+    "nom": "Saint-Rémy-lès-Chevreuse",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.071242846320578,
+      "lat": 48.70275104207729
+    }
+  },
+  {
+    "nom": "Robinson",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.281430595437462,
+      "lat": 48.78023729710839
+    }
+  },
+  {
+    "nom": "Fontaine Michalon",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.295921406897603,
+      "lat": 48.743016569903006
+    }
+  },
+  {
+    "nom": "Maisons-Laffitte",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.1450174376542583,
+      "lat": 48.94550297190666
+    }
+  },
+  {
+    "nom": "Nanterre Ville",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.195363986912901,
+      "lat": 48.89512589133458
+    }
+  },
+  {
+    "nom": "Nogent-sur-Marne",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.471681242571033,
+      "lat": 48.834288898896155
+    }
+  },
+  {
+    "nom": "Val d'Europe",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.772428148255365,
+      "lat": 48.854824962724784
+    }
+  },
+  {
+    "nom": "Val de Fontenay",
+    "lignes": [
+      "RER A",
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.4886964657999355,
+      "lat": 48.85409607826304
+    }
+  },
+  {
+    "nom": "La Défense",
+    "lignes": [
+      "RER A",
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.2385952173384713,
+      "lat": 48.89168813894621
+    }
+  },
+  {
+    "nom": "Chelles - Gournay",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.583331158055108,
+      "lat": 48.87414408301458
+    }
+  },
+  {
+    "nom": "Le Raincy - Villemomble - Montfermeil",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.5131575327478117,
+      "lat": 48.88886574230645
+    }
+  },
+  {
+    "nom": "Pantin",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.400361703159176,
+      "lat": 48.898112306280396
+    }
+  },
+  {
+    "nom": "Nogent - Le Perreux",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.4941880553461155,
+      "lat": 48.83934193918028
+    }
+  },
+  {
+    "nom": "Villiers-sur-Marne - Le Plessis-Trévise",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.5426797940158528,
+      "lat": 48.82326663412408
+    }
+  },
+  {
+    "nom": "Bry-sur-Marne",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.525615908439546,
+      "lat": 48.84519309666404
+    }
+  },
+  {
+    "nom": "Conflans Fin d'Oise",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.0739471888196928,
+      "lat": 48.99033252838146
+    }
+  },
+  {
+    "nom": "Fontenay-aux-Roses",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.292988009258979,
+      "lat": 48.787566728367985
+    }
+  },
+  {
+    "nom": "La Plaine Stade de France - Saint-Denis - Aubervilliers",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.362470767055213,
+      "lat": 48.91800820579238
+    }
+  },
+  {
+    "nom": "Pierrefitte - Stains",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3721031384025686,
+      "lat": 48.96375542962029
+    }
+  },
+  {
+    "nom": "Garges - Sarcelles",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3905936526418383,
+      "lat": 48.976747848293925
+    }
+  },
+  {
+    "nom": "Essonnes Robinson",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4624564927796966,
+      "lat": 48.605555826378406
+    }
+  },
+  {
+    "nom": "Louvres",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5017580658464627,
+      "lat": 49.04932560088567
+    }
+  },
+  {
+    "nom": "Stade de France Saint-Denis",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3503895378897677,
+      "lat": 48.91756717658464
+    }
+  },
+  {
+    "nom": "Yerres",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4842425564350705,
+      "lat": 48.7066109356985
+    }
+  },
+  {
+    "nom": "Villabé",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.461550180897489,
+      "lat": 48.59281219034078
+    }
+  },
+  {
+    "nom": "Grigny Centre",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3967835034154406,
+      "lat": 48.654849335430036
+    }
+  },
+  {
+    "nom": "Épinay-sur-Seine",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3023468035919636,
+      "lat": 48.953495203379674
+    }
+  },
+  {
+    "nom": "Breuillet - Bruyères-le-Châtel",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.192063068770897,
+      "lat": 48.577508489431835
+    }
+  },
+  {
+    "nom": "Choisy-le-Roi",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.411386724936104,
+      "lat": 48.76378680955172
+    }
+  },
+  {
+    "nom": "Les Ardoines",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.4095902349857026,
+      "lat": 48.78222618353015
+    }
+  },
+  {
+    "nom": "Les Saules",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.4175209778964915,
+      "lat": 48.74507216689389
+    }
+  },
+  {
+    "nom": "Pontoise",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.0951950672259687,
+      "lat": 49.04664576264113
+    }
+  },
+  {
+    "nom": "Saint-Cyr",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.0718470059294014,
+      "lat": 48.79870763528835
+    }
+  },
+  {
+    "nom": "Saint-Gratien",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.285930718208942,
+      "lat": 48.963589684873156
+    }
+  },
+  {
+    "nom": "Saint-Martin d'Étampes",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1452465929031157,
+      "lat": 48.42736258418355
+    }
+  },
+  {
+    "nom": "Vitry-sur-Seine",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.40271281718153,
+      "lat": 48.80020939834459
+    }
+  },
+  {
+    "nom": "Musée d'Orsay",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3267597744418103,
+      "lat": 48.860351434026214
+    }
+  },
+  {
+    "nom": "Saint-Ouen",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3226263683342268,
+      "lat": 48.9045663899011
+    }
+  },
+  {
+    "nom": "Aéroport CDG 1 (Terminal 3)",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.5612326952251063,
+      "lat": 49.009756452138376
+    }
+  },
+  {
+    "nom": "Bagneux",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.322201633670121,
+      "lat": 48.79333629623622
+    }
+  },
+  {
+    "nom": "Courcelle sur Yvette",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.097975858420524,
+      "lat": 48.70121772031537
+    }
+  },
+  {
+    "nom": "Drancy",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.4547663827657766,
+      "lat": 48.93270621869947
+    }
+  },
+  {
+    "nom": "Bures-sur-Yvette",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.1643782427741725,
+      "lat": 48.696252747814434
+    }
+  },
+  {
+    "nom": "Laplace",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.334354309639648,
+      "lat": 48.808296588631435
+    }
+  },
+  {
+    "nom": "Sceaux",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.2976476777940333,
+      "lat": 48.78135672132316
+    }
+  },
+  {
+    "nom": "Sevran - Livry",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.5347149747425237,
+      "lat": 48.936280185651775
+    }
+  },
+  {
+    "nom": "Antony",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3009868557349513,
+      "lat": 48.754946525531125
+    }
+  },
+  {
+    "nom": "Cité universitaire",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3389784720131814,
+      "lat": 48.8210896506153
+    }
+  },
+  {
+    "nom": "Châtou - Croissy",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.1559034718965226,
+      "lat": 48.885211218208454
+    }
+  },
+  {
+    "nom": "Le Parc de Saint-Maur",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.4863497487790744,
+      "lat": 48.80537766216148
+    }
+  },
+  {
+    "nom": "Le Vésinet Centre",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.134600875228717,
+      "lat": 48.89008623555386
+    }
+  },
+  {
+    "nom": "Bussy-Saint-Georges",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.7089817422622775,
+      "lat": 48.83653643294523
+    }
+  },
+  {
+    "nom": "Cergy le Haut",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.0109997600036325,
+      "lat": 49.04787620336899
+    }
+  },
+  {
+    "nom": "Gretz-Armainvilliers",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.7272293714297664,
+      "lat": 48.74645232070457
+    }
+  },
+  {
+    "nom": "Gagny",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.5254342507658434,
+      "lat": 48.88373428097724
+    }
+  },
+  {
+    "nom": "Les Boullereaux Champigny",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.5118555534510074,
+      "lat": 48.82484856949889
+    }
+  },
+  {
+    "nom": "Gare d'Austerlitz",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3654333833527597,
+      "lat": 48.842528027683585
+    }
+  },
+  {
+    "nom": "Évry - Courcouronnes",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4301553860113567,
+      "lat": 48.625901394916305
+    }
+  },
+  {
+    "nom": "La Norville - Saint-Germain-lès-Arpajon",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2662138531705556,
+      "lat": 48.59111919975116
+    }
+  },
+  {
+    "nom": "Boussy-Saint-Antoine",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5331306565710374,
+      "lat": 48.68101661634273
+    }
+  },
+  {
+    "nom": "Boutigny",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3766728185069916,
+      "lat": 48.43449061286291
+    }
+  },
+  {
+    "nom": "Boissise-le-Roi",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.572073662735743,
+      "lat": 48.52974691857647
+    }
+  },
+  {
+    "nom": "Cesson",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.594551816007613,
+      "lat": 48.56494949567092
+    }
+  },
+  {
+    "nom": "Maisse",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.393410724066637,
+      "lat": 48.39364154774085
+    }
+  },
+  {
+    "nom": "Mennecy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.432098533660357,
+      "lat": 48.5705968587192
+    }
+  },
+  {
+    "nom": "Lieusaint - Moissy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.569583548236461,
+      "lat": 48.62837555172384
+    }
+  },
+  {
+    "nom": "Maisons-Alfort - Alfortville",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.426482408484048,
+      "lat": 48.80204938032392
+    }
+  },
+  {
+    "nom": "Savigny-le-Temple - Nandy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5839477110612505,
+      "lat": 48.59556383799178
+    }
+  },
+  {
+    "nom": "Ris-Orangis",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.415206841330065,
+      "lat": 48.658975423830064
+    }
+  },
+  {
+    "nom": "Saint-Denis",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3456043781962905,
+      "lat": 48.93445554506132
+    }
+  },
+  {
+    "nom": "Vosves",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.5993042659192627,
+      "lat": 48.515151454141154
+    }
+  },
+  {
+    "nom": "Vigneux-sur-Seine",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4138711503513184,
+      "lat": 48.70812051426092
+    }
+  },
+  {
+    "nom": "Creil",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.4689141153510383,
+      "lat": 49.26394414450534
+    }
+  },
+  {
+    "nom": "Montgeron - Crosne",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.462282244689792,
+      "lat": 48.70823782858165
+    }
+  },
+  {
+    "nom": "Boigneville",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.3788154433118907,
+      "lat": 48.34166354461878
+    }
+  },
+  {
+    "nom": "Dourdan",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.0087718138734374,
+      "lat": 48.53373283397724
+    }
+  },
+  {
+    "nom": "Ermont - Eaubonne",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.272084772747632,
+      "lat": 48.98064610042599
+    }
+  },
+  {
+    "nom": "Franconville - Le Plessis-Bouchard",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2342763939965375,
+      "lat": 48.99371348038584
+    }
+  },
+  {
+    "nom": "Étréchy",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1945817005254264,
+      "lat": 48.49364457849669
+    }
+  },
+  {
+    "nom": "Pont de Rungis Aéroport d'Orly",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.3731119407049346,
+      "lat": 48.74834968236465
+    }
+  },
+  {
+    "nom": "Saint-Ouen-l'Aumône",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1051107034445073,
+      "lat": 49.045311648350264
+    }
+  },
+  {
+    "nom": "Rungis la Fraternelle",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.351633198171911,
+      "lat": 48.74019544820277
+    }
+  },
+  {
+    "nom": "Péreire",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.299279102380644,
+      "lat": 48.88604139991642
+    }
+  },
+  {
+    "nom": "Montigny - Beauchamp",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1965029019130347,
+      "lat": 49.007767719270035
+    }
+  },
+  {
+    "nom": "Avenue Henri Martin",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.2721593819194146,
+      "lat": 48.86546235708394
+    }
+  },
+  {
+    "nom": "Égly",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.223448833583109,
+      "lat": 48.582724688073675
+    }
+  },
+  {
+    "nom": "Breuillet Village",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.1703772591600425,
+      "lat": 48.56432890676855
+    }
+  },
+  {
+    "nom": "Versailles Chantiers",
+    "lignes": [
+      "RER C"
+    ],
+    "coord": {
+      "lon": 2.135156224100022,
+      "lat": 48.795138179363484
+    }
+  },
+  {
+    "nom": "Bourg-la-Reine",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.312307716888594,
+      "lat": 48.78031379639699
+    }
+  },
+  {
+    "nom": "Gentilly",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.340891132444595,
+      "lat": 48.81522993471633
+    }
+  },
+  {
+    "nom": "Gif-sur-Yvette",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.136566717058361,
+      "lat": 48.698196976301936
+    }
+  },
+  {
+    "nom": "La Courneuve - Aubervilliers",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.386388291064694,
+      "lat": 48.92435387966093
+    }
+  },
+  {
+    "nom": "Orsay Ville",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.1810544390412185,
+      "lat": 48.69750567080332
+    }
+  },
+  {
+    "nom": "Port Royal",
+    "lignes": [
+      "RER B"
+    ],
+    "coord": {
+      "lon": 2.3370964308800906,
+      "lat": 48.840033787418086
+    }
+  },
+  {
+    "nom": "Achères Grand Cormier",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.093521901580612,
+      "lat": 48.955402244531115
+    }
+  },
+  {
+    "nom": "Lognes",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.6332109134176336,
+      "lat": 48.839219299951644
+    }
+  },
+  {
+    "nom": "Noisy - Champs",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.5800859119743564,
+      "lat": 48.84288484082361
+    }
+  },
+  {
+    "nom": "Poissy",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.041072289675926,
+      "lat": 48.93326540612855
+    }
+  },
+  {
+    "nom": "Neuville Université",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.078306591409993,
+      "lat": 49.014133684983044
+    }
+  },
+  {
+    "nom": "Vincennes",
+    "lignes": [
+      "RER A"
+    ],
+    "coord": {
+      "lon": 2.432434660260661,
+      "lat": 48.84734036417028
+    }
+  },
+  {
+    "nom": "Émerainville - Pontault-Combault",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.6191944124556534,
+      "lat": 48.80584078961123
+    }
+  },
+  {
+    "nom": "Les Yvris Noisy-le-Grand",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.579837253911679,
+      "lat": 48.82315185583432
+    }
+  },
+  {
+    "nom": "Noisy-le-Sec",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.458363412015992,
+      "lat": 48.89665245114409
+    }
+  },
+  {
+    "nom": "Rosny Bois Perrier",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.481213457683429,
+      "lat": 48.88252792453506
+    }
+  },
+  {
+    "nom": "Rosny-sous-Bois",
+    "lignes": [
+      "RER E"
+    ],
+    "coord": {
+      "lon": 2.485761140611789,
+      "lat": 48.869912419186086
+    }
+  },
+  {
+    "nom": "Chantilly - Gouvieux",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.459549118844453,
+      "lat": 49.187087205195866
+    }
+  },
+  {
+    "nom": "Brunoy",
+    "lignes": [
+      "RER D"
+    ],
+    "coord": {
+      "lon": 2.506676982547088,
+      "lat": 48.69910694695422
+    }
+  }
+]
